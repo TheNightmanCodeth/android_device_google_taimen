@@ -35,6 +35,7 @@ etc/permissions/privapp-permissions-wahoo.xml
 -app/embms/embms.apk
 -priv-app/TimeService/TimeService.apk
 -priv-app/SSRestartDetector/SSRestartDetector.apk
+-priv-app/ModemService/ModemService.apk
 -priv-app/wahoo_gfxdrv/wahoo_gfxdrv.apk
 
 # Self Extractor
