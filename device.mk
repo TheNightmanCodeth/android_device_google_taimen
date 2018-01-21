@@ -19,6 +19,7 @@ PRODUCT_AAPT_PREF_CONFIG := 560dpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 PRODUCT_HARDWARE := taimen
+GAPPS_VARIANT := stock
 
 # DEVICE_PACKAGE_OVERLAYS for the device should be before
 # including common overlays since the one listed first
@@ -125,3 +126,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.texture_cache_size=84 \
     ro.hwui.layer_cache_size=64 \
     ro.hwui.path_cache_size=32
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
